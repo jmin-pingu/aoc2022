@@ -1,0 +1,22 @@
+{
+  "name": "day02",
+  "version": "1.0.0",
+  "description": "Day 2 of Advent of Code 2022",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon src/main.ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "Jonathan Min",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "fs": "^0.0.1-security",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "ts-jest": "^29.3.2",
+    "ts-node": "^10.9.2"
+  }
+}
