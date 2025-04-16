@@ -1,0 +1,21 @@
+{
+  "name": "day01",
+  "version": "1.0.0",
+  "main": "main.js",
+  "build": "tsc",
+  "scripts": {
+    "dev": "nodemon src/main.ts"
+  },
+  "author": "Jonathan Min",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}
