@@ -1,0 +1,20 @@
+{
+  "name": "day03",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "nodemon src/main.ts",
+    "build": "tsc"
+  },
+  "author": "Jonathan Min",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
