@@ -1,4 +1,3 @@
-
 export class BinaryHeap {
 	heap: number[]
 
@@ -20,6 +19,9 @@ export class BinaryHeap {
 		return index * 2 + 1;
 	}
 
+	/* bubble()
+	 *
+	 */
 	bubble() {
 		let idx = this.heap.length-1;
 		var parent_idx: number;
